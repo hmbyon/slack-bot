@@ -5,7 +5,7 @@ from supabase import create_client, Client
 # ==========================================
 # 1. 본인의 진짜 Supabase 정보 입력
 # ==========================================
-SUPABASE_URL = "https://htxjlpfqqqqueylucpis.supabase.co/rest/v1/"  # 👈 진짜 Project URL
+SUPABASE_URL = "https://htxjlpfqqqqueylucpis.supabase.co/rest/v1"  # 👈 진짜 Project URL
 SUPABASE_KEY = "sb_publishable_1Ppr4HTGY6PL_G_8ESbLNg_7OAPFekW"                     # 👈 진짜 anon/public Key
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
